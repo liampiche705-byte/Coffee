@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mountain Roast Coffee</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f3ef;
+      color: #2f241f;
+    }
+
+    header {
+      background: linear-gradient(rgba(40, 25, 18, 0.55), rgba(40, 25, 18, 0.55)),
+        url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0 0 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin: 0;
+    }
+
+    nav {
+      background: #4e342e;
+      text-align: center;
+      padding: 12px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 14px;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      font-size: 2rem;
+    }
+
+    .about {
+      text-align: center;
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 22px;
+      border-radius: 14px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #5d4037;
+    }
+
+    .contact {
+      background: #eee3d7;
+      border-radius: 14px;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    footer {
+      background: #2f241f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mountain Roast Coffee</h1>
+    <p>Fresh Roasted Coffee Delivered</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#coffee">Coffee</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p class="about">
+      Mountain Roast Coffee crafts fresh, rich, small-batch roasted coffee for people who love smooth flavor and bold aroma.
+      From morning brews to espresso nights, we make every cup feel special.
+    </p>
+  </section>
+
+  <section id="coffee">
+    <h2>Our Coffee</h2>
+    <div class="products">
+      <div class="card">
+        <h3>Dark Roast</h3>
+        <p>Bold, rich, and smoky with deep chocolate notes.</p>
+      </div>
+      <div class="card">
+        <h3>House Blend</h3>
+        <p>Smooth and balanced for the perfect everyday cup.</p>
+      </div>
+      <div class="card">
+        <h3>Espresso Roast</h3>
+        <p>Strong and flavorful, made for espresso and lattes.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact">
+      <h2>Contact</h2>
+      <p>Email us to place an order or learn more.</p>
+      <p><strong>hello@mountainroastcoffee.com</strong></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Mountain Roast Coffee © 2026</p>
+  </footer>
+</body>
+</html>
